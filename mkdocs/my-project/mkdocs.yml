@@ -1,0 +1,27 @@
+site_name: Shkova's MKDocs
+site_description: "Documentation with GitHub and MkDocs"
+site_url: "https://shkova/mkdocs"
+site_author: "Shkova Abdulqader"
+
+copyright: "© All rights reserved - Shkova Abdulqader"
+
+nav:
+  - Docs: "index.md"
+  - Getting Started: "gettingStarted.md"
+
+repo_name: "Shkova/documentationGithubMkdocs"
+repo_url: "https://github.com/Shkova/documentationGithubMkdocs"
+
+theme:
+  name: material
+  direction: ltr
+  palette:
+    primary: "blue"
+    accent: "blue"
+  font:
+    text: Ibarra Real Nova
+    code: Ibarra Real Nova mono
+  # logo: "https://shiftsoftware.github.io/ShiftGrid/assets/images/logo.png"
+  favicon: "https://shiftsoftware.github.io/ShiftGrid/assets/images/logo.png"
+  include_search_page: true
+  search_index_only: true
